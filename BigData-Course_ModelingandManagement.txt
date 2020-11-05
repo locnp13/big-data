@@ -1,0 +1,55 @@
+WEEK 1:
+What is Data Management?
+1. How do we ingest the data?
+Ingestion means the process of getting the data into the data system that we are building or using
+- Manual input by command
+- Web form or visual interface
+- Automation data ingestion
+2. Where and how do we store it?
+- Issue of capacity (How much data to store)
+- Speed of the IU operation (How fast do we need to read/write)
+Storage system:
+- Storage area networks (SAN)
+- Network attached storage (NAS)
+- Direct attached storage (DAS)
+3. How can we ensure data quality?
+Further the data quality management should include a well define work flow on how low quality data could be corrected to bring it back to a high level of quality.
+4. What operations do we perform on the data?
+- Operation on single data items that produce a sub-item
+- Operation on collections of data item
+5. How can these operations be efficient?
+Efficiency of data operations
+- Measured by time and space
+- Should use paralelism
+6. How do we scale up data volume, variety, velocity and access?
+- Vertical scaling (Scale up): Adding more processors and RAM, buy servers
+- Horizontal scaling (Scale out): Adding more, possibly less powerful machines that interconect over a network
+The general trend in the big data world, however, is to target the scale out option.
+7. How to keep the data secure?
+
+
+WEEK 2:
+What is a Data Model?
+- Data Model Structure
++ Structure
++ Unstructure
+- Data Model Operations
+4 basic data operations 
++ Selection
++ Projection
++ Union
++ Join
+- Data Model Constraints
+Type of constraint
++ Value constraint
++ Uniqueness constraint
++ Cardinality constraint
++ Type constraint
++ Domain constraint
+Structure of constraint
++ Put restriction on the structure of the data rather than the data values themselves
+
+Some different data models:
+- Relation Data Model
+- Semistructure Data Model
+- Array Data Model
