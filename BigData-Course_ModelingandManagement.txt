@@ -53,3 +53,23 @@ Some different data models:
 - Relation Data Model
 - Semistructure Data Model
 - Array Data Model
+- Vector Space Model
++ Inverse document frequency
+- Graphic Data Model
++ Explore graph data model with Gephi
+
+Data format is different with data model
+
+What is data stream?
+- a possibly unbounded sequence of data items or records.
+Streaming data system
+- Manage one record or small time window
+- Near-real-time
+- Independent computations
+- Non-interactive
+Some streaming data system
+- Amazon kinese
+- Apache storm
+- Flink
+- Spark Streaming
+
